@@ -12,6 +12,7 @@
 namespace Symfony\Component\ExpressionLanguage\Node;
 
 use Symfony\Component\ExpressionLanguage\Compiler;
+use Symfony\Component\ExpressionLanguage\SyntaxError;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>
@@ -92,6 +93,9 @@ class GetAttrNode extends Node
                 $array = $this->nodes['node']->evaluate($functions, $values);
                 if (!is_array($array) && !$array instanceof \ArrayAccess) {
                     throw new \RuntimeException('Unable to get an item on a non-array.');
+                }
+                if (!isset($array[$this->nodes['attribute']->attributes['value']])) {
+                    throw new SyntaxError('Unexpected expression value', $this->nodes['attribute']->attributes['value']);
                 }
 
                 return $array[$this->nodes['attribute']->evaluate($functions, $values)];
