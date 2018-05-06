@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Hellocasa\Component\ExpressionLanguage;
 
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
-use Symfony\Component\ExpressionLanguage\ParserCache\ParserCacheAdapter;
-use Symfony\Component\ExpressionLanguage\ParserCache\ParserCacheInterface;
+use Hellocasa\Component\ExpressionLanguage\ParserCache\ParserCacheAdapter;
+use Hellocasa\Component\ExpressionLanguage\ParserCache\ParserCacheInterface;
 
 /**
  * Allows to compile and evaluate expressions written in your own DSL.

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\ParserCache;
+namespace Hellocasa\Component\ExpressionLanguage\ParserCache;
 
 @trigger_error('The '.__NAMESPACE__.'\ArrayParserCache class is deprecated since Symfony 3.2 and will be removed in 4.0. Use the Symfony\Component\Cache\Adapter\ArrayAdapter class instead.', E_USER_DEPRECATED);
 
-use Symfony\Component\ExpressionLanguage\ParsedExpression;
+use Hellocasa\Component\ExpressionLanguage\ParsedExpression;
 
 /**
  * @author Adrien Brault <adrien.brault@gmail.com>

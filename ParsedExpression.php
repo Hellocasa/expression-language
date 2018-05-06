@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Hellocasa\Component\ExpressionLanguage;
 
-use Symfony\Component\ExpressionLanguage\Node\Node;
+use Hellocasa\Component\ExpressionLanguage\Node\Node;
 
 /**
  * Represents an already parsed expression.

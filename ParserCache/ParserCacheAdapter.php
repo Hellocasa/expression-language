@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\ParserCache;
+namespace Hellocasa\Component\ExpressionLanguage\ParserCache;
 
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
-use Symfony\Component\Cache\CacheItem;
+use Hellocasa\Component\Cache\CacheItem;
 
 /**
  * @author Alexandre GESLIN <alexandre@gesl.in>

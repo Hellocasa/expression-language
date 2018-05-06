@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage\Node;
+namespace Hellocasa\Component\ExpressionLanguage\Node;
 
-use Symfony\Component\ExpressionLanguage\Compiler;
-use Symfony\Component\ExpressionLanguage\SyntaxError;
+use Hellocasa\Component\ExpressionLanguage\Compiler;
+use Hellocasa\Component\ExpressionLanguage\SyntaxError;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

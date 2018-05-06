@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\ExpressionLanguage;
+namespace Hellocasa\Component\ExpressionLanguage;
 
 /**
  * Represents an expression.
